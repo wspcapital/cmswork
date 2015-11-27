@@ -1,0 +1,22 @@
+form_registr|Form Registration
+user_email|Contact E-mail
+user_first_name|First Name
+user_last_name|Last Name
+submit_form|Sign Up
+user_email_required_error|Specify your E-mail
+user_email_email_error|Invalid format E-mail address
+user_first_name_required_error|Enter your name
+user_first_name_name_error|Name field must contain only letters
+user_last_name_required_error|Please enter your last name
+user_last_name_name_error|The field name must contain only letters
+registr_user_success|Registration was successful. Check the specified E-mail to confirm your registration
+registr_user_repeat|For technical reasons, registration is not carried out. Please try again
+users_email_unique_error|Indicated E-mail already exist
+registrate_conf_subject|Confirm registration
+registrate_confirm_email|Dear %s %s,\r\n please run indicated link %s for completed of registration.\r\n Best regards
+confirm_user_denied|Invalid confirmation code
+registrate_completed_subject|Registration successfully completed
+registrate_completed_email|Dear %s %s,\r\n registration successfully completed.\r\nA temporary password for your account: %s\r\n Be sure to change your temporary password after the first login profile.\r\n %s \r\n Best regards
+registr_completed_success|Registration successfully completed, check E-mail
+Community_Title|Meta Trader
+user_email_unique_error|Specified E-mail registered yet

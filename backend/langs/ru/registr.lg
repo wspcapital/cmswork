@@ -1,0 +1,22 @@
+form_registr|Форма Регистрации
+user_email|Контактный E-mail
+user_first_name|Имя
+user_last_name|Фамилия
+submit_form|Зарегистрироваться
+user_email_required_error|Укажите контактный Е-mail
+user_email_email_error|Неверный формат E-mail адреса
+user_first_name_required_error|Укажите ваше имя
+user_first_name_name_error|Поле ИМЯ должно содержать только буквы
+user_last_name_required_error|Укажите вашу фамилию
+user_last_name_name_error|Поле ФАМИЛИЯ должно содержать только буквы
+registr_user_success|Регистрация успешно завершена. Проверьте указанный E-mail для подверждения регистрации 
+registr_user_repeat|По техническим причинам регистрация не проведена. Пожалуйста повторите операцию
+users_email_unique_error|Указанный E-mail уже используется
+registrate_conf_subject|Подтвердите регистрацию
+registrate_confirm_email|Здравствуйте %s %s, \r\n запустите указаную ссылку %s для завершения регистрации. \r\n С наилучшими пожеланиями
+confirm_user_denied|Неверный код подтверждения
+registrate_completed_subject|Регистрация успешно завершена
+registrate_completed_email|Здравствуйте %s %s,\r\n регистрация успешно завершена.\r\nВременный пароль для входа в вашу учетную запись: %s\r\n Смените временный пароль после первого входа в учетную запись.\r\n %s \r\n С наилучшими пожеланиями
+registr_completed_success|Регистрация успешно завершена, проверьте указанный E-mail
+Community_Title|Meta Trader
+user_email_unique_error|Указанный Е-mail зарегистрирован ранее

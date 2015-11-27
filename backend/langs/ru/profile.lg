@@ -1,0 +1,35 @@
+form_registr|Форма Регистрации
+user_email|Контактный E-mail
+user_fname|Имя
+user_mname|Отчество
+user_lname|Фамилия
+user_phone|Контактный Телефон
+submit_form|Сохранить
+set_select_user_state|Выбрать cтрану проживания
+user_state|Страна проживания
+affiliate|Партнёрская ссылка
+user_notification_field|Подписка на новости
+user_email_required_error|Укажите контактный Е-mail
+user_email_email_error|Неверный формат E-mail адреса
+user_first_name_required_error|Укажите ваше имя
+user_first_name_name_error|Поле ИМЯ должно содержать только буквы
+user_last_name_required_error|Укажите вашу фамилию
+user_last_name_name_error|Поле ФАМИЛИЯ должно содержать только буквы
+user_middle_name_name_error|Поле ОТЧЕСТВО должно содержать только буквы
+user_email_unique_error|Указанный E-mail уже используется
+user_phone_required_error|Укажите контактный телефон
+user_phone_phone_error|Неверный формат телефона
+user_phone_unique_error|Указанный телефон уже используется
+user_state_required_error|Укажите страну проживания
+user_region|Область
+user_region_name_error|Поле Наименование Области должно содержать только буквы
+user_city|Город
+user_city_name_error|Поле Город должно содержать только буквы
+user_zip_code|Индекс
+user_zip_code_error|Индекс указан не корректно
+user_address|Адрес
+user_address_error|Адрес проживания указан не корректно
+profile_update_error|По техническим причинам изменённые данные не сохранены
+profile_update_success|Изменённые данные успешно сохранены
+profile_update_notice|Не найдены данные к изменению
+control_panel|Панель управления

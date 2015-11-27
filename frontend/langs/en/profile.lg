@@ -1,0 +1,34 @@
+user_email|E-mail
+user_fname|First name
+user_mname|Middle name
+user_lname|Last name
+user_phone|Contact phone
+submit_form|Save
+set_select_user_state|Select country of residence
+user_state|Country of Residence
+affiliate|Affiliate link
+user_notification_field|Subscribe to news
+user_email_required_error|Indicate your E-mail
+user_email_email_error|Format of E-mail indicated is incorrect
+user_first_name_required_error|Indicate your first name
+user_middle_name_name_error|Middle name has to contain only letters
+user_first_name_name_error|First name has to contain only letters
+user_last_name_required_error|Indicate your last name
+user_last_name_name_error|Last name has to contain only letters
+user_email_unique_error|Indicated E-mail is used already
+user_phone_required_error|Indicate your contact phone
+user_phone_phone_error|Format of contact phone indicated is incorrect
+user_phone_unique_error|Indicated contact phone is used already
+user_state_required_error|Indicate country of residence
+user_region|Region
+user_region_name_error|Region name has to contain only letters
+user_city|City
+user_city_name_error|City name has to contain only letters
+user_zip_code|Zip
+user_zip_code_error|Zip Code incorrect
+user_address|Address
+user_address_error|Address incorrect
+profile_update_error|For technical reason the changed data are not saved
+profile_update_success|Changed data are saved successfully
+profile_update_notice|Changed data are not founded
+control_panel|Dashboard

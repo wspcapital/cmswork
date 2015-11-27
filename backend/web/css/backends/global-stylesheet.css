@@ -1,0 +1,305 @@
+@font-face {
+  font-family : "PFDinTextCondPro-Bold";
+  src         : url("../fonts/PFDinTextCondPro-Bold.ttf");
+}
+
+@font-face {
+  font-family : "PFDinTextCondPro-Light";
+  src         : url("../fonts/PFDinTextCondPro-Light.ttf");
+}
+
+@font-face {
+  font-family : "PFDinTextCondPro-Medium";
+  src         : url("../fonts/PFDinTextCondPro-Medium.ttf");
+}
+
+@font-face {
+  font-family : "PFDinTextCondPro-Regular";
+  src         : url("../fonts/PFDinTextCondPro-Regular.ttf");
+}
+
+.container {
+  max-width : 100%;
+}
+
+html {
+  /*height : 100%;*/
+}
+
+body {
+  /*height     : inherit;*/
+
+  background : #7db9e8;
+  background : url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzdkYjllOCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNmZmZmZmYiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+  background : -moz-linear-gradient(top, #7db9e8 0%, #ffffff 100%);
+  background : -webkit-gradient(linear, left top, left bottom, color-stop(0%, #7db9e8), color-stop(100%, #ffffff));
+  background : -webkit-linear-gradient(top, #7db9e8 0%, #ffffff 100%);
+  background : -o-linear-gradient(top, #7db9e8 0%, #ffffff 100%);
+  background : -ms-linear-gradient(top, #7db9e8 0%, #ffffff 100%);
+  background : linear-gradient(to bottom, #7db9e8 0%, #ffffff 100%);
+  filter     : progid:DXImageTransform.Microsoft.gradient(startColorstr='#7db9e8', endColorstr='#ffffff', GradientType=0);
+
+}
+
+.body-wrapper {
+  /*height : inherit;*/
+
+}
+
+.body-wrapper-inner {
+
+  /*height      : inherit;*/
+  padding-top : 49px;
+
+}
+
+body .super-wrapper {
+  background-color : #ffffff;
+  /*box-shadow       : 0 0 10px 0 rgba(50, 50, 50, 0.75);*/
+  margin           : 0 auto;
+  max-width        : 1200px;
+
+  border-left      : 1px solid #e9ebee;
+  border-right     : 1px solid #e9ebee;
+}
+
+@media screen and (min-width : 880px)/* and (max-width : 1600px)*/ {
+  body .super-wrapper {
+    max-width : 70%;
+  }
+
+  .body-wrapper {
+    /*background-image    : url('../img/polish-culture_04.png');*/
+    background-repeat   : no-repeat;
+    background-position : bottom right;
+    background-size     : 20%;
+  }
+
+  .body-wrapper-inner {
+    /*background-image    : url("../img/polish-culture_02.png");*/
+    background-position : bottom left;
+    background-repeat   : no-repeat;
+    background-size     : 20%;
+  }
+}
+
+@media screen and (min-width : 1600px) {
+  body .super-wrapper {
+    max-width : 100%;
+    width     : 1200px;
+  }
+}
+
+.header-nav-bar {
+  z-index : 800;
+}
+
+.header-nav-bar .navbar-left {
+
+}
+
+.header-nav-bar .navbar-left a {
+  display          : inline-block;
+  background-color : #eff0ee;
+  border-radius    : 50%;
+  line-height      : 15px;
+  margin-right     : 20px;
+  font-size        : 14px;
+  color            : #4f504e;
+  text-transform   : capitalize;
+  padding          : 8px;
+  margin-top       : 10px;
+
+}
+
+.header-nav-bar .navbar-left .active a {
+  background-color : #cb0000;
+  color            : #ffffff;
+}
+
+.header-nav-bar .navbar-right {
+}
+
+.header-nav-bar .navbar-right a {
+  display          : inline-block;
+  background-color : #eff0ee;
+  border-radius    : 8px;
+  line-height      : 15px;
+  margin-right     : 20px;
+  font-size        : 14px;
+  color            : #4f504e;
+  text-transform   : capitalize;
+  padding          : 8px;
+  margin-top       : 10px;
+}
+
+.header-nav-bar .navbar-right .active a {
+  background-color : #324965;
+  color            : #ffffff;
+}
+
+@media (min-width : 767px) {
+  .header-nav-bar .media-collapsed {
+    display : none;
+  }
+}
+
+@media (max-width : 767px) {
+  .header-nav-bar .media-collapsed {
+    display : block;
+  }
+}
+
+.navbar-collapse {
+  z-index : 999;
+}
+
+.navbar-collapse .navbar-left {
+
+}
+
+.navbar-collapse .navbar-left li {
+  display : inline-block;
+}
+
+.navbar-collapse .navbar-right li {
+  display : inline-block;
+}
+
+.navbar-collapse .media-collapsed li {
+  border-top : 1px solid darkgray;
+}
+
+.bg-white {
+  height           : 150px;
+  background-color : #ffffff;
+  position         : relative;
+  border-top       : 1px solid #ebebeb;
+}
+
+.bg-white .logo-wrapper {
+  min-width    : 730px;
+  position     : relative;
+  padding-left : 350px;
+  z-index      : 780;
+}
+
+.bg-white .logo-wrapper h1 {
+  font-family : PFDinTextCondPro-Regular;
+}
+
+.bg-white .logo-wrapper h1 a {
+  /*color       : #ffffff;*/
+  color       : #cb0000;
+  display     : inline-block;
+  text-shadow : 0px 0px 10px rgba(150, 150, 150, 1);
+  font-size   : 45px;
+}
+
+.bg-white .logo-wrapper h1 a:hover {
+  text-decoration : none;
+}
+
+.bg-red {
+  height           : 150px;
+  background-color : #cb0000;
+  position         : relative;
+}
+
+.bg-red .site-logo img {
+  border      : 10px solid #e9ebee;
+  position    : absolute;
+  bottom      : 0;
+  max-width   : 244px;
+  margin-left : -14px;
+}
+
+@media screen and (min-width : 880px) {
+  .bg-white .logo-wrapper {
+    max-width : 70%;
+  }
+
+  .bg-red .logo-wrapper {
+    max-width : 70%;
+  }
+}
+
+.main-menu {
+  text-align : center;
+}
+
+.main-menu #navbar {
+  border-bottom : 1px solid #444444;
+  height        : 46px !important;
+  margin-bottom : 20px;
+}
+
+.main-menu .navbar-nav {
+  float   : none;
+  display : inline-block;
+}
+
+.main-menu a {
+  font-family    : PFDinTextCondPro-Light;
+  text-transform : uppercase;
+  color          : #000000;
+  font-size      : 20px;
+}
+
+.main-menu .active a {
+  background-color : #e9ebee;
+}
+
+.page-content {
+  padding-bottom : 100px;
+  min-height     : 500px;
+}
+
+.page-content h1 {
+  font-family : PFDinTextCondPro-Medium;
+  font-size   : 24px;
+  color       : #444444;
+}
+
+.page-content p {
+  font-family : PFDinTextCondPro-Light;
+  font-size   : 18px;
+  color       : #444444;
+}
+
+.footer-wrapper {
+  border-top  : 1px solid #444444;
+  color       : #444444;
+  font-size   : 12px;
+  line-height : 80px;
+}
+
+.overlay {
+    background-color: #000;
+    color: #eee;
+    display: block;
+    font-size: 18px;
+    font-weight: lighter;
+    height: 100%;
+    opacity: 0.5;
+    padding: 200px 0;
+    position: fixed;
+    text-align: center;
+    width: 100%;
+    z-index: 9999;
+}
+
+.fa-spin {
+    animation: 2s linear 0s normal none infinite running spin;
+}
+.fa-2x {
+    font-size: 2em;
+}
+.fa {
+    -moz-osx-font-smoothing: grayscale;
+    display: inline-block;
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+}

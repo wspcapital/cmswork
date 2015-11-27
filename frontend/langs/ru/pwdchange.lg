@@ -1,0 +1,8 @@
+user_pass|Текущий пароль
+user_newpass|Новый пароль
+user_confpass|Подтвердить новый пароль
+submit_form|Сохранить
+user_pass_required_error|Укажите пароль
+user_passwd_error|Пароль должен состоять из 8 - 32 буквоцифровых символов
+user_password_wrong|Текущий пароль указан неверно
+user_confpass_nomatch|Повторно введённый пароль не совпадает с новым

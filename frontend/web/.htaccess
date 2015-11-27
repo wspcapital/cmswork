@@ -1,0 +1,16 @@
+order allow,deny
+allow from all
+
+<IfModule mod_rewrite.c>
+    RewriteEngine on
+
+    #RewriteCond $1 ^(index\.html)
+    #RewriteRule ^(.*)$ /home [L]
+
+    #htaccess close access to image
+    RewriteCond %{HTTP_REFERER} !^http://(www\.)?cmswfr.local/ [NC] 
+    RewriteRule \.(jpe?g|gif|bmp|png|jpg|JPG|js)$ - [F,NC]
+
+    RewriteCond $1 !^(index\.php|img|css|js|captcha|__app|favicon\.ico|shutdown\.html|fonts)
+    RewriteRule ^(.*)$ /index.php/$1 [L]
+</IfModule>

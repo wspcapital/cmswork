@@ -1,0 +1,16 @@
+email_subject|Тема письма
+email_body|Текст письма
+submit_form|Задать вопрос
+Community_Title|Общество польской культуры
+user_email|Регистрационный E-mail
+email_subject|Категория вопроса
+email_body|Описание вопроса
+common_question|Общий вопрос
+set_select_email_subject|Выберите категорию вопроса
+send_email_success|Ваш вопрос успешно отослан
+send_email_error|По техническим причинам ваш вопрос не отослан
+registr_email_error|Указанный E-mail не зарегистрирован
+user_email_required_error|Укажите регистрационный E-mail
+user_email_format_error|Неверный формат E-mail
+email_subject_required_error|Выберите категорию вопроса
+email_text_required_error|Опишите ваш вопрос    

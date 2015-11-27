@@ -1,0 +1,16 @@
+email_subject|Email subject
+email_body|Email text
+submit_form|Ask a question
+Community_Title|Community of Polish Culture
+user_email|Registration E-mail
+email_subject|Question category
+email_body|Description of the question
+common_question|General question
+set_select_email_subject|Select a category issue
+send_email_success|Your question has been sent successfuly
+send_email_error|For technical reasons, your question is not sent
+registr_email_error|Said E-mail is not registered
+user_email_required_error|Indicate the registration E-mail
+user_email_format_error|Wrong format E-mail
+email_subject_required_error|Select a category issue
+email_text_required_error|Describe your question    

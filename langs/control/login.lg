@@ -1,0 +1,8 @@
+user_email|E-mail
+user_pass|Пароль
+user_email_required_error|Укажите Е-mail
+user_email_email_error|Неверный формат E-mail адреса
+user_email_exist_error|Указанный E-mail не найден
+user_pass_required_error|Пароль не указан
+auth_user_denied|Указан неверный доступ
+submit_form|Войти

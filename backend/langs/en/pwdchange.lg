@@ -1,0 +1,8 @@
+user_pass|Current password
+user_newpass|New password
+user_confpass|Confirm new password
+submit_form|Save
+user_pass_required_error|Enter the password
+user_passwd_error|The password must consist of 8 - 32 characters
+user_password_wrong|The current password is incorrect
+user_confpass_nomatch|Re-entered password does not match with the new

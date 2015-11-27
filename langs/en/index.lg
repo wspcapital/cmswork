@@ -1,0 +1,4 @@
+common_static_data|Developed by Andrey Yaryshko
+total_auth_users|Count of users registered
+auth_users_current|Users registered for current day
+auth_user_lang_team|Users registered for current language

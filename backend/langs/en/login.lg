@@ -1,0 +1,10 @@
+user_email|E-mail
+user_pass|Password
+user_email_required_error|Specify your E-mail
+user_email_email_error|Invalid format E-mail address
+user_email_exist_error|Indicated E-mail is not founded
+user_pass_required_error|Password Unknown
+danger_auth_user_denied|Invalid access
+submit_form|SignIn
+success_pwdchsuccess|Password success changed, pls use new password to enter in to your profile.
+danger_authkey|Access key is wrong, repeat authorization
