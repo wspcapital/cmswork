@@ -2,9 +2,10 @@
 
 return array(
                 'protocol'    => 'smtp',
-		'host'        => 'ssl://smtp.server.com',
+		'host'        => 'ssl://smtp.yandex.ru',
 		'port'        => 465,
-		'user'        => 'your@email.com',
-                'pass'        => 'smtp-password',
-                'project_name'=> 'Email-title'
+		'user'        => 'andryarys@yandex.ru',
+                'pass'        => 'SagitariaSagitifolia',
+                'project_name'=> 'Community_Title',
+                'method'      => 'smtp'
             );
