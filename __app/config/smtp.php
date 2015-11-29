@@ -4,8 +4,8 @@ return array(
                 'protocol'    => 'smtp',
 		'host'        => 'ssl://smtp.yandex.ru',
 		'port'        => 465,
-		'user'        => 'andryarys@yandex.ru',
-                'pass'        => 'SagitariaSagitifolia',
-                'project_name'=> 'Community_Title',
+		'user'        => 'your@email.com',
+                'pass'        => 'password',
+                'project_name'=> 'email_title',
                 'method'      => 'smtp'
             );
