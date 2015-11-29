@@ -1,4 +1,4 @@
 nbproject
 templates_c
 config/db.php
-config/smtp.php
+/__app/config/*
